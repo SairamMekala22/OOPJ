@@ -1,0 +1,14 @@
+1. Create a library management system where you have 430 magazines ,100 novels , 230 historical books etc. The student can take atmost take 2 magazines or 1 novel-1magazine or 2 novels or 3 historical books. The librarian has to enforce these rules while assigning the books to the student. The books need to be returned within 30 days or the fine is 50 rupees per day. The student needs to borrow or return the books to the librarian.
+
+
+2. Design a learning management student where you have a course which can have learning activities like quiz, doing lab programs and submitting assignments. Each learning activity should have marks , activation status(start or stop),question description. A student should be enrolled in a course, he should be able to see all the activities which are started by the teacher , he can attempt the activities and get a score. At any point the student should know his score in the course and how many activities he has completed so far.
+
+
+3.Develop a banking system where in a Bank , there are different types of Accounts, such as SavingsAccount and CurrentAccount, both of which are types of BankAccount. Each account has a balance and an accountNumber.You can withdraw and deposit money into it. A Bank manages multiple Customers, and each customer can have one or more BankAccounts.  Current account supports overdraft mechanism. This feature allows the account holder to withdraw more money than is available in their account balance, up to a certain limit, called the overdraft limit. There is no interest provided for the account balance whereas in savings account you get 12% after every 30 days and there has to be a minimum balance amount to be maintained. For savings account you can have netbanking possible where the customer would be provided with netbanking details to withdraw money.
+
+
+4. You are designing an E-commerce System where users can place orders for various products. There are two types of products: ElectronicProduct and GroceryProduct. GroceryProduct comes with an expiry whereas an ElectronicProduct would come with a warranty,every product should be able to apply discount. 
+A Customer can add products into his cart and checkout, which checking out the GST should also be calculated of the total cart, it would 5% on grocery and 18% on eletronic goods. During checkout the order gets placed.Your system should be capable of displaying 
+1. The total no of customers in the system along with their info
+2. The active carts which have not ben checked out 
+3. Given a customer his orders which are to be delivered and yet to arrive
