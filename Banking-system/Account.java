@@ -5,7 +5,6 @@ public abstract class Account {
     Account() {
         accountNumber = startingAccountNumber + 1;
         startingAccountNumber++;
-
     }
 
     void withdraw(double amount) {
@@ -21,6 +20,6 @@ public abstract class Account {
     void deposit(double amount) {
         balance += amount;
         System.out.println("You deposited $" + amount);
-        System.out.println("Current balance: $" + amount);
+        System.out.println("Current balance: $" + balance);
     }
 }
