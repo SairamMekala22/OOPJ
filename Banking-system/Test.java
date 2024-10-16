@@ -4,7 +4,7 @@
 public class Test {
     public static void main(String[] args) {
         Customer jaffa = new Customer("Jaffa", 87376463);
-        jaffa.createCurrentAccount(1000);
+        CurrentAccount jaffaCA1 =  (jaffa.createCurrentAccount(1000));
         jaffa.createSavingsAccount(1000);
         jaffa.createSavingsAccount(1000);
         jaffa.createSavingsAccount(1000);
@@ -16,6 +16,7 @@ public class Test {
         System.out.println("Number of current account: " + jaffa.numOfCurrentAccounts);
         System.out.println(jaffa.savingsAccounts.get(2).accountNumber);
         jaffa.savingsAccounts.get(1).withdraw(100);
+        System.out.println(jaffaCA1.balance);
         
     }
 }
