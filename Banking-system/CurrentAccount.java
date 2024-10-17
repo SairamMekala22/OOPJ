@@ -9,10 +9,12 @@ public class CurrentAccount extends Account {
             balance -= amount;
             System.out.println("You have withdrawed $" + amount);
             System.out.println("Current balance: $" + this.balance);
-        } else {
+        } else if (amount <= balance + withdraftLimit) {
             withdraftLimit = withdraftLimit + (this.balance - amount);
             System.out.println("Withdrawn $" + (-(this.balance - amount)) + " from withdraw limit.");
             System.out.println("Updated withdraw limit: $" + withdraftLimit);
+        } else {
+            System.out.println("Insufficient balance.");
         }
     }
 }
