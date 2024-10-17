@@ -22,4 +22,8 @@ public abstract class Account {
         System.out.println("You deposited $" + amount);
         System.out.println("Current balance: $" + balance);
     }
+
+    void checkBalance() {
+        System.out.println("Current balance: $" + balance);
+    }
 }
