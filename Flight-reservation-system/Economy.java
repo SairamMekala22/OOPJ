@@ -4,6 +4,4 @@ public class Economy extends Seats{
         super(price);
         this.price = this.price + this.price * tax;
     }
-
-    
 }

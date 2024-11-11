@@ -32,8 +32,4 @@ public class Passanger {
         }
         System.out.println("Your total fare is $" + totalFare);
     }
-
-    
-
-
 }
